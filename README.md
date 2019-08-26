@@ -10,3 +10,4 @@
 6. git commit -m "message"
 7. git push origin master
 8. git pull origin master
+9. git branch
