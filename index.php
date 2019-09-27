@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+	include "header.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@ include "header.php";
 </head>
 
 <body > 
-
+		
 		
 		<div class="title">
 			<h1>COURSES</h1>
@@ -19,6 +19,7 @@ include "header.php";
 			<a href="Learning.html" class="btn">START LEARNING</a>
 			<a href="Learnmore.html" class="btn">LEARN MORE</a>
 		</div>	
+		
 			
 </body>
 </html>

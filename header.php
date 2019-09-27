@@ -25,11 +25,11 @@ session_start();
                     else{
                         echo '<form action="include/login.php" method="POST">
            
-                            <input type="text" name="username" placeholder="username">
+                            <input class="log1" type="text" name="username" placeholder="username">
                         
-                            <input type="password" name="password" placeholder="password">
+                            <input class="log1" type="password" name="password" placeholder="password">
 
-                            <button type="submit" name="login">Login</button>
+                            <button class="log1" type="submit" name="login">Login</button>
 
                             <a href="sign.php">Signup</a>
 
@@ -42,11 +42,11 @@ session_start();
 			</div>
 				<nav>
 				<ul>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="Services.html">Services</a></li>
-				<li><a href="Gallery.html">Gallery</a></li>
-				<li><a href="About.html">About</a></li>
-				<li><a href="Contact.html">Contact</a></li>
+				<li class="a"><a href="#">Home</a></li>
+				<li class="b"><a href="Services.html">Services</a></li>
+				<li class="c"><a href="Gallery.html">Gallery</a></li>
+				<li class="d"><a href="About.html">About</a></li>
+				<li class="e"><a href="Contact.html">Contact</a></li>
 			</ul>
 			</nav>
         </div>
