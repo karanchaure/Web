@@ -16,8 +16,8 @@
 /*karan edited*/
    
 header{
-	background:repeating-radial-gradient(red,green);
-	height: 180px;
+	background:repeating-linear-gradient(rgb(69, 69, 102),rgb(105, 74, 105));
+	height: 120px;
 	
 	background-position: center;
 } 
@@ -25,7 +25,7 @@ header{
 ul{
 	float: right;
 	list-style-type: none;
-	margin-top: 25px;
+	margin-top: 50px;
 }
 
 ul li{
@@ -34,8 +34,8 @@ ul li{
 
 ul li a{
 	text-decoration: none;
-	color; #fff;
-	padding; 10px 20px;
+	color:#fff;
+	padding: 20px 20px;
 	border: 1px solid transparent;
 	transition: 0.6s ease;
 }
@@ -45,34 +45,34 @@ ul li a:hover{
 	color: #000;
 }
 
-ul li.a a{
+ul li.a a:hover{
 	border-radius: 6px 6px 6px 6px;
 	background-color:rgb(160, 6, 250);
 	color: rgb(255, 255, 255);
 }
 
-ul li.b a{
-	border-radius: 6px 6px 6px 6px;
-	background-color:rgb(160, 6, 250);
-	color: rgb(255, 255, 255);
-}
-	
-
-ul li.c a{
+ul li.b a:hover{
 	border-radius: 6px 6px 6px 6px;
 	background-color:rgb(160, 6, 250);
 	color: rgb(255, 255, 255);
 }
 	
 
-ul li.d a{
+ul li.c a:hover{
+	border-radius: 6px 6px 6px 6px;
+	background-color:rgb(160, 6, 250);
+	color: rgb(255, 255, 255);
+}
+	
+
+ul li.d a:hover{
 	border-radius: 6px 6px 6px 6px;
 	background-color:rgb(160, 6, 250);
 	color: rgb(255, 255, 255);
 }
 
 
-ul li.e a{
+ul li.e a:hover{
 	border-radius: 6px 6px 6px 6px;
 	background-color:rgb(160, 6, 250);
 	color: rgb(255, 255, 255);
@@ -82,8 +82,8 @@ ul li.e a{
 .aks img{
 	margin-top: 25px;
 	float: left;
-	width; 80px;
-	height: 80px;
+	width: 80px;
+	height: 50px;
 }
 
 .main{
