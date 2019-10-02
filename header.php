@@ -43,7 +43,7 @@ session_start();
 				<nav>
 				<ul>
 				<li class="a"><a href="#">Home</a></li>
-				<li class="b"><a href="Services.html">Services</a></li>
+				<li class="b"><a href="course.php">Courses</a></li>
 				<li class="c"><a href="Gallery.html">Gallery</a></li>
 				<li class="d"><a href="About.html">About</a></li>
 				<li class="e"><a href="Contact.html">Contact</a></li>
