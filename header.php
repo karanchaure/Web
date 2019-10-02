@@ -29,7 +29,7 @@ session_start();
                         
                             <input class="log1" type="password" name="password" placeholder="password">
 
-                            <button class="log1" type="submit" name="login">Login</button>
+                            <button class="log2" type="submit" name="login">Login</button>
 
                             <a href="sign.php">Signup</a>
 

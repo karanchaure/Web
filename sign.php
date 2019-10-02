@@ -1,4 +1,5 @@
-<?php
+
+        <?php
   include "header.php";
   
     ?>
@@ -18,11 +19,10 @@
            <input class="sign" type="text" name="username" placeholder="username">
          <input class="sign" type="password" name="password" placeholder="password">
     
-        
     
         <input class="sign" type="password" name="password_r" placeholder="password_rep">
            
-    <button type="submit" name="signup">Signup</button></form>
+    <button class="sub" type="submit" name="signup">Signup</button></form>
        </section>
    </div>
 </body>
