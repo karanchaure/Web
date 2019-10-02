@@ -16,7 +16,7 @@
 /*karan edited*/
    
 header{
-	background:repeating-linear-gradient(rgb(69, 69, 102),rgb(105, 74, 105));
+	background:repeating-linear-gradient(orange,rgb(190, 139, 44));
 	height: 120px;
 	
 	background-position: center;
@@ -118,19 +118,50 @@ ul li.e a:hover{
 	transition: 0.6s ease;
 }
 .btn:hover{
-	background-color: rgb(66, 66, 141);
+	background-color: orange;
 	color: #000;
 }
 
 .sign{
-	border: 2px solid green;
+	border: 3px solid orange;
+	border-radius:5px 5px 5px 5px;
 }
 
 .log1{
-	border:2px solid green;
+	border:3px solid orange;
+}
+.log2{
+	background-color:orange;
+	color:rgb(133, 109, 64);
 }
 
 .log a{
 	color:white;
-	background-color:rgb(160, 6, 250);
+	
+}
+
+.home{
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../ak.jpg);
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+}
+.w{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:red;
+}
+.w:hover{
+	color:blue;
+}
+.sub{
+	background-color:orange;
+}
+.pay{
+	background-color:green;
+	color:white;
+	padding: 10px 20px;
+	border-radius:6px 6px 6px 6px;
 }
