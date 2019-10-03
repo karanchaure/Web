@@ -17,7 +17,7 @@
    
 header{
 	background:repeating-linear-gradient(orange,rgb(190, 139, 44));
-	height: 120px;
+	height: 150px;
 	
 	background-position: center;
 } 
@@ -123,16 +123,18 @@ ul li.e a:hover{
 }
 
 .sign{
-	border: 3px solid orange;
+	border: 1px solid orange;
 	border-radius:5px 5px 5px 5px;
 }
 
 .log1{
-	border:3px solid orange;
+	border:1px solid orange;
 }
 .log2{
 	background-color:orange;
-	color:rgb(133, 109, 64);
+	color:white;
+	padding: 5px 10px;
+	border-radius:6px 6px 6px 6px;
 }
 
 .log a{
@@ -158,10 +160,28 @@ ul li.e a:hover{
 }
 .sub{
 	background-color:orange;
+	padding: 10px 20px;
+	border-radius:6px 6px 6px 6px;
 }
 .pay{
 	background-color:green;
 	color:white;
 	padding: 10px 20px;
 	border-radius:6px 6px 6px 6px;
+}
+.x{
+	background-color: orange;
+	color:rgb(160, 6, 250);	
+	
+
+}
+h1{
+	background-color: orange;	
+	
+	
+}
+.cours{
+	
+
+	
 }

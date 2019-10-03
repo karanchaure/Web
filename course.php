@@ -21,19 +21,19 @@ $(document).ready(function(){
 </head>
 <body>
 <h1>videos</h1>
-<div>
+<div class="frame">
 <!-- src="https://www.youtube.com/embed/0kfLTq57_Y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen -->
-<iframe id="frame" width="560" height="315"  ></iframe>
+<iframe id="frame" width="560" height="315"  ></iframe><br>
 <button name='sub' value='subscribe' class="sub">Subscribe</button>
 
 </div>
 
-<div>
-<h2>list</h2>
 
-<table>
+<h3>list</h3>
+<div class="lis">
+<table border="1">
 <?php
-$fetch="SELECT * FROM course_list ;";
+$fetch="SELECT * FROM course_list;";
 $result=mysqli_query($conn,$fetch);
 $rowcheck=mysqli_num_rows($result);
 
@@ -43,13 +43,14 @@ $rowcheck=mysqli_num_rows($result);
 
     while($rows = mysqli_fetch_assoc($result))
      {
-         echo '<a class="list" href="'.$rows['url'].'" target="frame"> <tr  id="'.$rows['id'].'">'.$rows['title'].'</tr></a><br><br>';
+         echo '<a class="list" href="'.$rows['url'].'" target="frame"> <tr id="'.$rows['id'].'">'.$rows['title'].'</tr></a><br><br>';
          
          
      }
  }
 ?>
 </table>
+</div>
 
 </div>
 </body>

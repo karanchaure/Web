@@ -12,15 +12,15 @@
 <body>
    <div class="main">
        <section class="section">
-           <h1>Signup</h1>
+           <h1>Signup</h1><br>
            <form action="include/db.php" method="post">
-           <input class="sign" type="text" name="name" placeholder="name">
-           <input  class="sign" type="email" name="email" placeholder="email">
-           <input class="sign" type="text" name="username" placeholder="username">
-         <input class="sign" type="password" name="password" placeholder="password">
+           Name:<br><input class="sign" type="text" name="name" placeholder="name"><br><br>
+           Email:<br><input  class="sign" type="email" name="email" placeholder="email"><br><br>
+           Username:<br><input class="sign" type="text" name="username" placeholder="username"><br><br>
+           Password:<br><input class="sign" type="password" name="password" placeholder="password"><br><br>
     
     
-        <input class="sign" type="password" name="password_r" placeholder="password_rep">
+        Re-enter Password:<br><input class="sign" type="password" name="password_r" placeholder="password_rep"><br><br>
            
     <button class="sub" type="submit" name="signup">Signup</button></form>
        </section>

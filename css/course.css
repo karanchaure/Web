@@ -8,5 +8,29 @@
 .sub{
   
     background-color: red;
-    
+	
+}
+.lis{
+	border:1px solid black;
+	width:300px;
+	position: absolute;
+	top: 60%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	
+}
+.h1{
+	postion:absolute;
+	left:20%;
+
+}
+.frame{
+	position:absolute;
+	left:20%;
+	top:40%;
+}
+h3{
+	position:absolute;
+	right:30%;
+	text-size:40%;
 }
